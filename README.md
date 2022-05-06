@@ -8,9 +8,9 @@ System Components
 ![IMG_20220504_144707](https://user-images.githubusercontent.com/48537944/166855115-0297680d-0524-4b80-a290-e62c47861d60.jpg)
 
 ## Hawkeye2 Controller  
-At the heart of the system is the Hawkeye2 controller. This is a custom design. All design info is available gere is this repository. The board details are included in  the homemade-v3 folder. Download the folder to your Eagle project directory and there you will have access to teh schematic and the board layout. 
-The MSP430 micro controller firmware is available in the MSP folder. Download the zip file from there and save it in you TI Code Composer project directory. From there you can edit teh source and flash the target by using TI Launchpad.  
-There are two more boards included. One is for teh front panel switches and the other is for the switch interface board. Follow the included wiring diagram to interconnect the system.
+At the heart of the system is the Hawkeye2 controller. This is a custom design. All design info is available gere is this repository. The board details are included in  the homemade-v3 folder. Download the folder to your Eagle project directory and there you will have access to the schematic and the board layout. 
+The MSP430 micro controller firmware is available in the MSP folder. Download the zip file from there and save it in you TI Code Composer project directory. From there you can edit the source and flash the target by using TI Launchpad.  
+There are two more boards included. One is for the front panel switches and the other is for the switch interface board. Follow the included wiring diagram to interconnect the system.
 ## Stepper Driver  
 The stepper driver is an off the shelf product. 
 https://www.amazon.com/gp/product/B075HBJP51/
@@ -76,9 +76,9 @@ Located on the controller board, used for fine tuning of the stepper
 Reverses the motor rotation for film rewind.  
 
 ## Operation
-Very straight forward. Here is a short video showing teh operation.  
+Very straight forward. Here is a short video showing the operation.  
 https://photos.app.goo.gl/MLEgviiinpVREHCQA  
-As teh video shows, plug teh power in for both the controller and the driver and then flip the ADV switch on until the projector is finished with teh film frame advance and at that point turn teh ADV switch off. Then, connect teh camera trigger and turn the camera on. Turn the RUn switch on the the camera will start capturing the farmes. If at any point the system starts goung out of sync you can resync it by using the ADV switch or alternatively, turn the ALG switch on and the hit the UP or DOWN button just once.   
+As the video shows, plug the power in for both the controller and the driver and then flip the ADV switch on until the projector is finished with the film frame advance and at that point turn the ADV switch off. Then, connect the camera trigger and turn the camera on. Turn the RUn switch on the the camera will start capturing the farmes. If at any point the system starts goung out of sync you can resync it by using the ADV switch or alternatively, turn the ALG switch on and the hit the UP or DOWN button just once.   
 The UP button makes the run shorter and the DOWN button makes it longer.  
 
 ## Tuning the Stepper  
