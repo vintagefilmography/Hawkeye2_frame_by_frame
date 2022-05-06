@@ -7,4 +7,7 @@ System Components
 
 ![IMG_20220504_144707](https://user-images.githubusercontent.com/48537944/166855115-0297680d-0524-4b80-a290-e62c47861d60.jpg)
 
-At the heart of the system is the Hawkeye2 controller. This is an open source design board. 
+Hawkeye2 Controller
+At the heart of the system is the Hawkeye2 controller. This is a custom design. All design info is available gere is this repository. The board details are included in  the homemade-v3 folder. Download the folder to your Eagle project directory and there you will have access to teh schematic and the board layout. 
+The MSP430 micro controller firmware is available in the MSP folder. Download the zip file from there and save it in you TI Code Composer project directory. From there you can edit teh source and flash the target by using TI Launchpad.  
+There are two more boards included. One is for teh front panel switches and the other is for the switch interface board. Follow the included wiring diagram to interconnect teh system.
